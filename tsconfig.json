@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "allowJs": true,
+    "checkJs": true,
+    "lib": ["ES2015","dom"] // list the additional libs which typescript should be aware of for typechecking
   }
 }
